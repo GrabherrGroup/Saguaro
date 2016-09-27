@@ -1,0 +1,22 @@
+
+
+
+Pre-requisites:
+1) dawg 1.2-release is used to simulate the sequences.
+2) Phylip version 3.69 [http://evolution.genetics.washington.edu/phylip/getme.html]
+3) TOPD-fMtS version 3.3 [http://genomes.urv.es/topd]
+
+The programs "dawg", "fitch" and "topd_v3.3.pl" are exprected to be in the path.
+
+Running simulations:
+
+1) Run the script "divsim.sh" to create config files with different levels of divergence.
+2) Run the script "sagdivrunner.sh" to simulate and report the performance statistics. 
+
+It is possible to modify the config files to allow for any tree topology, different number of trees, different levels of divergence etc.
+
+Config file format:
+
+probability_of_tree	tree_in_format_for_use_by_dawg
+
+

@@ -1,0 +1,37 @@
+Saguaro
+Version 0.1, 2013/05/30
+
+Program to detect local phylogenetic patterns in populations or species.
+
+(c) 2011, Manfred Grabherr, Science for Life Laboratory, Department of 
+Medical Biochemistry and Microbiology, Uppsala University, Uppsala, Sweden
+
+Please cite: Neda Zamani, Pamela Russell, Henrik Lantz, Marc P Hoeppner, 
+Jennifer RS Meadows, Nagarjun Vijay, Evan Mauceli, Federica di Palma, 
+Kerstin Lindblad-Toh, Patric Jern and Manfred G Grabherr. 
+Unsupervised genome-wide recognition of local relationship patterns. 
+BMC Genomics 2013, 14:347
+
+
+
+Libraries distributed with this package under LGPL:
+	Spines: (c) 2010, The Broad Institute
+
+
+
+1. Legal
+--------
+
+This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public
+License along with this library; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA

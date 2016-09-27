@@ -1,0 +1,3 @@
+./Maf2HMMFeature -i test_data/human_part.maf -o test_data/human_part.feature -m 5 -n test_data/some_critters -nosame -c hg18 > convert.out
+
+./Saguaro -f test_data/human_part.feature -o saguaro_out -iter 20 > saguaro.out
