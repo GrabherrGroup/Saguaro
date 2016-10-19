@@ -1,7 +1,7 @@
 #include <string>
 #include "base/CommandLineParser.h"
 #include "base/FileParser.h"
-#include "analysis/Cactus.h"
+#include "src/Cactus.h"
 
 //#define FORCE_DEBUG
 

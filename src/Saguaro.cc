@@ -1,8 +1,8 @@
 #include <string>
 #include "base/CommandLineParser.h"
 #include "base/FileParser.h"
-#include "analysis/HMMDecode.h"
-#include "analysis/HMMDistance.h"
+#include "src/HMMDecode.h"
+#include "src/HMMDistance.h"
 
 
 

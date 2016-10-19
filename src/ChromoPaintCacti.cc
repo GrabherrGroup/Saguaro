@@ -6,7 +6,7 @@
 #include "visual/Color.h"
 
 #include "visual/Axes.h"
-#include "analysis/DNAVector.h"
+#include "src/DNAVector.h"
 
 class Chr
 {

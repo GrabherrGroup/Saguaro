@@ -4,8 +4,8 @@
 
 
 
-#include "analysis/HMMDistance.h"
-#include "analysis/DNAVector.h"
+#include "src/HMMDistance.h"
+#include "src/DNAVector.h"
 #include "util/mutil.h"
 #include "base/FileParser.h"
 

@@ -2,8 +2,8 @@
 //#define NDEBUG
 //#endif
 
-#include "analysis/DNAVector.h"
-//#include "analysis/CodonTranslate.h"
+#include "src/DNAVector.h"
+//#include "src/CodonTranslate.h"
 #include "base/FileParser.h"
 #include "util/mutil.h"
 

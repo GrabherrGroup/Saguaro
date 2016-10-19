@@ -1,4 +1,4 @@
-#include "analysis/SOM.h"
+#include "src/SOM.h"
 #include "base/FileParser.h"
 
 

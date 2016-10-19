@@ -5,12 +5,12 @@
 #include <string>
 
 #include "base/CommandLineParser.h"
-#include "analysis/HMMDecode.h"
-#include "analysis/HMMDistance.h"
+#include "src/HMMDecode.h"
+#include "src/HMMDistance.h"
 #include "base/FileParser.h"
 
-#include "analysis/SOM.h"
-#include "analysis/HMMDistance.h"
+#include "src/SOM.h"
+#include "src/HMMDistance.h"
 #include "base/RandomStuff.h"
 
 

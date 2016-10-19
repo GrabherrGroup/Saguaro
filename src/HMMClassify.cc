@@ -5,7 +5,7 @@
 #include <string>
 
 #include "base/CommandLineParser.h"
-#include "analysis/HMMDecode.h"
+#include "src/HMMDecode.h"
 #include "base/FileParser.h"
 
 

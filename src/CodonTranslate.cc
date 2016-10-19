@@ -1,4 +1,4 @@
-#include "analysis/CodonTranslate.h"
+#include "src/CodonTranslate.h"
 
 void CodonTranslator::SetFullMatrix()
 {

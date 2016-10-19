@@ -2,8 +2,8 @@
 
 #include "base/CommandLineParser.h"
 #include "base/FileParser.h"
-#include "analysis/HMMDistance.h"
-#include "analysis/DNAVector.h"
+#include "src/HMMDistance.h"
+#include "src/DNAVector.h"
 
 
 

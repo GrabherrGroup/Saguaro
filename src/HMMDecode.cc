@@ -3,7 +3,7 @@
 #define NDEBUG
 #endif
 
-#include "analysis/HMMDecode.h"
+#include "src/HMMDecode.h"
 #include "base/FileParser.h"
 
 

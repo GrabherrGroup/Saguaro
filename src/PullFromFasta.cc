@@ -1,7 +1,7 @@
 #include <string>
 #include "base/CommandLineParser.h"
 #include "base/FileParser.h"
-#include "analysis/DNAVector.h"
+#include "src/DNAVector.h"
 
 
 int main( int argc, char** argv )
