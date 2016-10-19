@@ -3,7 +3,7 @@
 
 
 
-#include "base/SVector.h"
+#include "ryggrad/base/SVector.h"
 #include <iostream>
 #include <map>
 #include <fstream>

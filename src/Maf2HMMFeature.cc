@@ -1,7 +1,7 @@
 #include <string>
 
-#include "base/CommandLineParser.h"
-#include "base/FileParser.h"
+#include "ryggrad/base/CommandLineParser.h"
+#include "ryggrad/base/FileParser.h"
 #include "src/HMMDistance.h"
 #include "src/DNAVector.h"
 

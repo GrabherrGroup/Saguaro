@@ -6,8 +6,8 @@
 
 #include "src/HMMDistance.h"
 #include "src/DNAVector.h"
-#include "util/mutil.h"
-#include "base/FileParser.h"
+#include "ryggrad/util/mutil.h"
+#include "ryggrad/base/FileParser.h"
 
 
 double SimpleDistLocal(char v1, char v2) 

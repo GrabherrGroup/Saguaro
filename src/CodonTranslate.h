@@ -2,7 +2,7 @@
 #ifndef CODONTRANSLATE_H
 #define CODONTRANSLATE_H
 
-#include "base/SVector.h"
+#include "ryggrad/base/SVector.h"
 #include <string>
 
 inline char as_i(char b) {

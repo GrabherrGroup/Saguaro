@@ -1,8 +1,8 @@
 #include "visual/Whiteboard.h"
 
-#include "base/CommandLineParser.h"
-#include "base/FileParser.h"
-#include "base/SVector.h"
+#include "ryggrad/base/CommandLineParser.h"
+#include "ryggrad/base/FileParser.h"
+#include "ryggrad/base/SVector.h"
 #include "visual/Color.h"
 
 #include "visual/Axes.h"

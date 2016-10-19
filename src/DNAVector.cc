@@ -4,8 +4,8 @@
 
 #include "src/DNAVector.h"
 //#include "src/CodonTranslate.h"
-#include "base/FileParser.h"
-#include "util/mutil.h"
+#include "ryggrad/base/FileParser.h"
+#include "ryggrad/util/mutil.h"
 
 #define ONE_THIRD 1./3.
 
