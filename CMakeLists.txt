@@ -5,7 +5,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -lpthread -std=c++14 -O3 -w")
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "bin")
 
-# Saguaro binaries
+# saguaro binaries
 set(SOURCE_FILES_CACTICORRELATE ryggrad/base/ErrorHandling.cc ryggrad/base/FileParser.cc ryggrad/base/StringUtil.cc src/CactiCorrelate.cc ryggrad/util/mutil.cc) 
 set(SOURCE_FILES_CHROMOPAINTCACTI ryggrad/base/ErrorHandling.cc ryggrad/base/FileParser.cc ryggrad/base/StringUtil.cc src/ChromoPaintCacti.cc src/DNAVector.cc ryggrad/util/mutil.cc ryggrad/visual/Color.cc ryggrad/visual/Eps.cc) 
 set(SOURCE_FILES_CLUSTERCACTI ryggrad/base/ErrorHandling.cc ryggrad/base/FileParser.cc ryggrad/base/StringUtil.cc src/Cactus.cc src/ClusterCacti.cc ryggrad/util/mutil.cc) 
