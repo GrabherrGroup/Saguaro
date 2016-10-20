@@ -7,7 +7,7 @@ using namespace std;
 #include <iterator>
 #include <assert.h>
 #include <algorithm>
-#include "base/ErrorHandling.h"
+#include "ErrorHandling.h"
 
 
 template <class T> 

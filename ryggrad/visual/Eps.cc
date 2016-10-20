@@ -1,4 +1,4 @@
-#include "visual/Eps.h"
+#include "Eps.h"
 
 void PrintEpsHeader( ostream& out, 
                      const float horizSize, 

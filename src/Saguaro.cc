@@ -1,8 +1,8 @@
 #include <string>
-#include "ryggrad/base/CommandLineParser.h"
-#include "ryggrad/base/FileParser.h"
-#include "src/HMMDecode.h"
-#include "src/HMMDistance.h"
+#include "../ryggrad/base/CommandLineParser.h"
+#include "../ryggrad/base/FileParser.h"
+#include "HMMDecode.h"
+#include "HMMDistance.h"
 
 
 

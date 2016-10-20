@@ -6,7 +6,7 @@
 
 using namespace std;
 
-#include "util/mutil.h"
+#include "../util/mutil.h"
 #include <stdlib.h>
 #include <iostream>
 

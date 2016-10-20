@@ -1,7 +1,7 @@
 #ifndef DNAMATRIX_H
 #define DNAMATRIX_H
 
-#include "src/DNAVector.h"
+#include "DNAVector.h"
 
 
 

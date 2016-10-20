@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-#include "visual/Color.h"
+#include "Color.h"
 #include <iostream>
 #include <fstream>
 

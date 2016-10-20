@@ -1,11 +1,11 @@
-#include "visual/Whiteboard.h"
+#include "Whiteboard.h"
 
 #include "base/CommandLineParser.h"
 #include "base/FileParser.h"
 #include "base/SVector.h"
-#include "visual/Color.h"
+#include "Color.h"
 
-#include "visual/Axes.h"
+#include "Axes.h"
 
 #include <iostream>
 

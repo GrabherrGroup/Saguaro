@@ -1,12 +1,12 @@
-#include "visual/Whiteboard.h"
+#include "../ryggrad/visual/Whiteboard.h"
 
-#include "ryggrad/base/CommandLineParser.h"
-#include "ryggrad/base/FileParser.h"
-#include "ryggrad/base/SVector.h"
-#include "visual/Color.h"
+#include "../ryggrad/base/CommandLineParser.h"
+#include "../ryggrad/base/FileParser.h"
+#include "../ryggrad/base/SVector.h"
+#include "../ryggrad/visual/Color.h"
 
-#include "visual/Axes.h"
-#include "src/DNAVector.h"
+#include "../ryggrad/visual/Axes.h"
+#include "DNAVector.h"
 
 class Chr
 {

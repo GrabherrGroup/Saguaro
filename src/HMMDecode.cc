@@ -3,8 +3,8 @@
 #define NDEBUG
 #endif
 
-#include "src/HMMDecode.h"
-#include "ryggrad/base/FileParser.h"
+#include "HMMDecode.h"
+#include "../ryggrad/base/FileParser.h"
 
 
 void Read(HMMUpdate & update, const string & config)

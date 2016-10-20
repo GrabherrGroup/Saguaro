@@ -1,8 +1,8 @@
 #define FORCE_DEBUG
 
 #include <string>
-#include "ryggrad/base/CommandLineParser.h"
-#include "ryggrad/base/FileParser.h"
+#include "../ryggrad/base/CommandLineParser.h"
+#include "../ryggrad/base/FileParser.h"
 
 class Pair
 {

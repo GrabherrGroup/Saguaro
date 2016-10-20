@@ -1,5 +1,5 @@
-#include "src/SOM.h"
-#include "ryggrad/base/FileParser.h"
+#include "SOM.h"
+#include "../ryggrad/base/FileParser.h"
 
 
 void CoordsList::Read(const string & file)

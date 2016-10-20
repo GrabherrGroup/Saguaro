@@ -3,7 +3,7 @@
 #ifndef TICMARKS_H
 #define TICMARKS_H
 
-#include "visual/Whiteboard.h"
+#include "Whiteboard.h"
 #include <cmath>
 #include <sstream>
 

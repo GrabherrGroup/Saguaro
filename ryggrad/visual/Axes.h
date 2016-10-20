@@ -3,8 +3,8 @@
 #ifndef AXES_H
 #define AXES_H
 
-#include "visual/Whiteboard.h"
-#include "visual/TicMarks.h"
+#include "Whiteboard.h"
+#include "TicMarks.h"
 
 
 namespace ns_whiteboard 

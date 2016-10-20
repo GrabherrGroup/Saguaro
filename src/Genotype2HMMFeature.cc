@@ -1,9 +1,9 @@
 #include <string>
 
-#include "ryggrad/base/CommandLineParser.h"
-#include "ryggrad/base/FileParser.h"
-#include "src/HMMDistance.h"
-#include "src/DNAVector.h"
+#include "../ryggrad/base/CommandLineParser.h"
+#include "../ryggrad/base/FileParser.h"
+#include "HMMDistance.h"
+#include "DNAVector.h"
 
 
 ////////// Input file format //////////

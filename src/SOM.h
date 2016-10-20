@@ -1,8 +1,8 @@
 #ifndef SOM_H_
 #define SOM_H_
 
-#include "ryggrad/base/SVector.h"
-#include "ryggrad/base/RandomStuff.h"
+#include "../ryggrad/base/SVector.h"
+#include "../ryggrad/base/RandomStuff.h"
 
 
 class SOMNode;

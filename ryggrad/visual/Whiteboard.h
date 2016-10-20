@@ -1,8 +1,8 @@
 #ifndef WHITEBOARD_H
 #define WHITEBOARD_H
 
-#include "visual/Color.h"
-#include "visual/Eps.h"
+#include "Color.h"
+#include "Eps.h"
 
 #include "base/SVector.h"
 #include <string>

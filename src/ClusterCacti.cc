@@ -1,8 +1,8 @@
 
 #include <string>
-#include "ryggrad/base/CommandLineParser.h"
-#include "ryggrad/base/FileParser.h"
-#include "src/Cactus.h"
+#include "../ryggrad/base/CommandLineParser.h"
+#include "../ryggrad/base/FileParser.h"
+#include "Cactus.h"
 
 #define FORCE_DEBUG
 

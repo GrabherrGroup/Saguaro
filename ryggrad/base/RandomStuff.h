@@ -2,7 +2,7 @@
 #define RANDOMSTUFF_H_
 
 #include <math.h>
-#include "base/SVector.h"
+#include "SVector.h"
 
 inline long long RandomInt(long long n)
 {    
