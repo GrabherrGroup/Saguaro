@@ -5,7 +5,7 @@
 
 
 #include "HMMDistance.h"
-#include "DNAVector.h"
+#include "../ryggrad/src/general/DNAVector.h"
 #include "../ryggrad/src/util/mutil.h"
 #include "../ryggrad/src/base/FileParser.h"
 

@@ -3,7 +3,7 @@
 #include "../ryggrad/src/base/CommandLineParser.h"
 #include "../ryggrad/src/base/FileParser.h"
 #include "HMMDistance.h"
-#include "DNAVector.h"
+#include "../ryggrad/src/general/DNAVector.h"
 
 
 string Clean(const string & s) {

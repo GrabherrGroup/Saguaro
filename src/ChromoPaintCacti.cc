@@ -6,7 +6,7 @@
 #include "../ryggrad/src/visual/Color.h"
 
 #include "../ryggrad/src/visual/Axes.h"
-#include "DNAVector.h"
+#include "../ryggrad/src/general/DNAVector.h"
 
 class Chr
 {
