@@ -1,7 +1,7 @@
 #include <string>
-#include "../ryggrad/base/CommandLineParser.h"
-#include "../ryggrad/base/FileParser.h"
-#include "../ryggrad/math/Spearman.h"
+#include "../ryggrad/src/base/CommandLineParser.h"
+#include "../ryggrad/src/base/FileParser.h"
+#include "../ryggrad/src/math/Spearman.h"
 
 /*void LoadTissues(svec<string> & t) {
   FlatFileParser parser;

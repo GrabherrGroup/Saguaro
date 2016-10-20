@@ -1,10 +1,10 @@
 #ifndef CACTUS_H_
 #define CACTUS_H_
 
-#include "../ryggrad/base/SVector.h"
+#include "../ryggrad/src/base/SVector.h"
 #include <string>
 #include <stdio.h>
-#include "../ryggrad/base/StringUtil.h"
+#include "../ryggrad/src/base/StringUtil.h"
 
 class FlatFileParser;
 

@@ -1,7 +1,7 @@
 #ifndef _HMMDECODE_H_
 #define _HMMDECODE_H_
 
-#include "../ryggrad/base/SVector.h"
+#include "../ryggrad/src/base/SVector.h"
 #include <string>
 #include <iostream>
 

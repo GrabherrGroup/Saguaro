@@ -4,14 +4,14 @@
 
 #include <string>
 
-#include "../ryggrad/base/CommandLineParser.h"
+#include "../ryggrad/src/base/CommandLineParser.h"
 #include "HMMDecode.h"
 #include "HMMDistance.h"
-#include "../ryggrad/base/FileParser.h"
+#include "../ryggrad/src/base/FileParser.h"
 
 #include "SOM.h"
 #include "HMMDistance.h"
-#include "../ryggrad/base/RandomStuff.h"
+#include "../ryggrad/src/base/RandomStuff.h"
 
 
 class HMMMatrixScores : public HMMStateFrameScoreSource
