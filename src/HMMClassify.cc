@@ -4,9 +4,9 @@
 
 #include <string>
 
-#include "../ryggrad/src/base/CommandLineParser.h"
+#include "ryggrad/src/base/CommandLineParser.h"
 #include "HMMDecode.h"
-#include "../ryggrad/src/base/FileParser.h"
+#include "ryggrad/src/base/FileParser.h"
 
 
 int main(int argc,char** argv)

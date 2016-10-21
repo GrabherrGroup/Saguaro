@@ -5,6 +5,10 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -lpthread -std=c++14 -O3 -w")
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "bin")
 
+# include current directory in find path
+include_directories(./)
+
+
 # saguaro binaries
 set(SOURCE_FILES_CACTICORRELATE ryggrad/src/base/ErrorHandling.cc ryggrad/src/base/FileParser.cc ryggrad/src/base/StringUtil.cc src/CactiCorrelate.cc ryggrad/src/util/mutil.cc) 
 set(SOURCE_FILES_CHROMOPAINTCACTI ryggrad/src/base/ErrorHandling.cc ryggrad/src/base/FileParser.cc ryggrad/src/base/StringUtil.cc src/ChromoPaintCacti.cc ryggrad/src/general/DNAVector.cc ryggrad/src/util/mutil.cc ryggrad/src/visual/Color.cc ryggrad/src/visual/Eps.cc) 

@@ -4,7 +4,7 @@
 #endif
 
 #include "HMMDecode.h"
-#include "../ryggrad/src/base/FileParser.h"
+#include "ryggrad/src/base/FileParser.h"
 
 
 void Read(HMMUpdate & update, const string & config)

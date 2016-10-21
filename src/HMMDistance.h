@@ -1,7 +1,7 @@
 #ifndef HMMDISTANCE_H_
 #define HMMDISTANCE_H_
 
-#include "../ryggrad/src/base/SVector.h"
+#include "ryggrad/src/base/SVector.h"
 #include <string>
 #include <math.h>
 #include <iostream>

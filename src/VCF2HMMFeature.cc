@@ -1,9 +1,9 @@
 #include <string>
 
-#include "../ryggrad/src/base/CommandLineParser.h"
-#include "../ryggrad/src/base/FileParser.h"
+#include "ryggrad/src/base/CommandLineParser.h"
+#include "ryggrad/src/base/FileParser.h"
 #include "HMMDistance.h"
-#include "../ryggrad/src/general/DNAVector.h"
+#include "ryggrad/src/general/DNAVector.h"
 
 double SimpleDist(char v1, char v2) 
 {
