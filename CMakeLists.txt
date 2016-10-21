@@ -5,7 +5,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -lpthread -std=c++14 -O3 -w")
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "bin")
 
-# include current directory in find path
+# include directory in find path where all dependency modules exist
 include_directories(./)
 
 
