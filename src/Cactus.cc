@@ -137,5 +137,16 @@ void Cactus::Write(FILE * p)
     fprintf(p, "\n");
   //cout << endl;
   }
-  
 }
+
+void Cactus::WriteMCL(FILE* p)
+{
+  int i, j;
+  for (i=0; i<m_label.isize(); i++) {
+    svec<double> & d = m_data[i];
+    for (j=0; j<m_label.isize(); j++) {
+      fprintf(p, "%s %s %1.6f\n", m_label[i].c_str(), m_label[j].c_str(), d[j]);
+    }
+  }
+}
+

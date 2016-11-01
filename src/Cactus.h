@@ -20,6 +20,7 @@ class Cactus
   const string & Name() const {return m_name;}
   void Print();
   void Write(FILE * p);
+  void WriteMCL(FILE * p);
 
   double Distance(const Cactus & c);
   void Merge(const Cactus & c);
