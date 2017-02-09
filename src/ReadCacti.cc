@@ -20,15 +20,20 @@ int main( int argc, char** argv )
   
   LoadCacti(cacti, fileName);
   int i, j;
+  //cout << "Read DONE" << endl;
+  int k;
 
-  const Cactus & c = cacti[2];
-
-  for (i=0; i<c.Size(); i++)  {
-    cout << c.GetLabel(i);
-    for (j=0; j<c.Size(); j++)  {
-      cout << " " << c.Get(i, j);
+  for (k=0; k<cacti.isize(); k++) {
+    const Cactus & c = cacti[k];
+    cpit << "cactus" << k << endl;
+    
+    for (i=0; i<c.Size(); i++)  {
+      cout << c.GetLabel(i);
+      for (j=0; j<c.Size(); j++)  {
+	cout << " " << c.Get(i, j);
+      }
+      cout << endl;
     }
-    cout << endl;
   }
 
   return 0;
