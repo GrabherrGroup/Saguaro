@@ -26,6 +26,8 @@ class Cactus
   void Merge(const Cactus & c);
   double Weight() const {return m_weight;}
 
+  const string & GetLabel(int i) const {return m_label[i];} 
+  
   double Get(int i, int j) const {
     const svec<double> & d = m_data[i];
     return d[j];
