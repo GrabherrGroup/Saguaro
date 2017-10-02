@@ -30,6 +30,7 @@ set(SOURCE_FILES_SAGUARO ryggrad/src/base/ErrorHandling.cc ryggrad/src/base/File
 set(SOURCE_FILES_SAGUARO2PHYLIP ryggrad/src/base/ErrorHandling.cc ryggrad/src/base/FileParser.cc ryggrad/src/base/StringUtil.cc src/Saguaro2Phylip.cc ryggrad/src/util/mutil.cc) 
 set(SOURCE_FILES_SORTCACTUS ryggrad/src/base/ErrorHandling.cc ryggrad/src/base/FileParser.cc ryggrad/src/base/StringUtil.cc src/SortCactus.cc ryggrad/src/util/mutil.cc) 
 set(SOURCE_FILES_VCF2HMMFEATURE ryggrad/src/base/ErrorHandling.cc ryggrad/src/base/FileParser.cc ryggrad/src/base/StringUtil.cc ryggrad/src/general/DNAVector.cc src/HMMDistance.cc src/VCF2HMMFeature.cc ryggrad/src/util/mutil.cc) 
+set(SOURCE_FILES_READCACTUS ryggrad/src/base/ErrorHandling.cc ryggrad/src/base/FileParser.cc ryggrad/src/base/StringUtil.cc src/ReadCacti.cc ryggrad/src/util/mutil.cc src/Cactus.cc) 
 
 add_executable(Cacti2MCL ${SOURCE_FILES_CACTI2MCL})
 add_executable(CactiCorrelate ${SOURCE_FILES_CACTICORRELATE})
@@ -51,6 +52,7 @@ add_executable(Saguaro ${SOURCE_FILES_SAGUARO})
 add_executable(Saguaro2Phylip ${SOURCE_FILES_SAGUARO2PHYLIP})
 add_executable(SortCactus ${SOURCE_FILES_SORTCACTUS})
 add_executable(VCF2HMMFeature ${SOURCE_FILES_VCF2HMMFEATURE})
+add_executable(ReadCacti ${SOURCE_FILES_READCACTUS})
 
 
 
