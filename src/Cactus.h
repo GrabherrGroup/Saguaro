@@ -34,10 +34,14 @@ class Cactus
     svec<double> & d = m_data[i];
     d[j] = v;
   } 
+ 
+  const string & GetLabel(int i) const { return m_label[i]; }
+  void SetLabel(int i, const string & label) { m_label[i] = label; }
 
   int Size() const {return m_label.isize();}
 
   void SetSize(int n) {
+    m_label.resize(n);
     m_data.resize(n);
     for (int i=0; i<n; i++)
       m_data[i].resize(n, 0.);
